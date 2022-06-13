@@ -1,0 +1,11 @@
+Appel : 
+	ATD+33xxxxxxxxx;
+	ATH
+
+SMS :
+	AT+CMGS="+33xxxxxxxxx"
+	sms sms sms
+	ctrl+z (0x1A)
+
+Nextion ne comprend que si l'ordre se termine par ÿÿÿ
+	-> Fonction yyy() arduino.
